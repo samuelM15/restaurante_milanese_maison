@@ -1,0 +1,70 @@
+.secao_contato {
+    background-color: #5C4033;
+    padding: 40px;
+}
+
+.box_all {
+    color: #FFFFFF; 
+}
+.box_all h1 {
+    font-family: 'Brush Script MT', fantasy;
+    color: #D4AF37; 
+    font-size: 3.5rem;
+}
+.box_all .text_contato p {
+    font-size: 17px;
+    margin-top: 1rem;
+    border-bottom: 2px #A0522D solid; 
+}
+.box_all .contato {
+    margin-bottom: 3rem;
+}
+.box_all .contato p {
+    font-size: 17px;
+}
+.box_all .contato strong {
+    font-size: 18px;
+    color: #A0522D; 
+}
+.box_all .form_contato .container_form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.form_contato .container_form{
+    margin-bottom: 30px;
+}
+.container_form input {
+    background: transparent;
+    border: 3px #A0522D solid; 
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+.container_form textarea {
+    background: transparent;
+    border: 3px #A0522D solid; 
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+.container_form input::placeholder {
+    color: #D4AF37; 
+}
+.container_form textarea::placeholder {
+    color: #D4AF37; 
+}
+
+.form_contato button {
+    color: #FFFFFF; 
+    background-color: #A0522D; 
+    border: none;
+    border-radius: 6px;
+    width: 90px;
+    height: 30px;
+}
+.form_contato button:hover {
+    color: #4C2A2A;
+    background-color: #FFFFFF;
+    border: 2px #4C2A2A solid;
+    transition: 500ms;
+}

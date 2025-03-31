@@ -1,0 +1,43 @@
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contain-2{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+  
+.Image1{
+    background: url('https://www.restaurant-diroma.com/apps/uploads/2022/07/tournedos_rossini.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image2{
+    background: url('https://smaakmenutie.nl/wp-content/uploads/2022/04/Klassieke-carpaccio-3-1024x683.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image3{
+    background: url('https://hridiomas.com/aprender-frances/wp-content/uploads/sites/2/2020/09/destaque-5.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image4{
+    background: url('https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-paillard-file-mignon-com-fettuccine-abobora-parmesao-salvia.jpg?quality=85') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image5{
+    background: url('https://cdn.casaeculinaria.com/wp-content/uploads/2023/11/14090813/Suco-de-laranja-1.webp') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}

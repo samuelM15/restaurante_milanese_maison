@@ -1,0 +1,96 @@
+.Body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4C2A2A; 
+  padding: 40px;
+  }
+  
+  .Body p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #FFFFFF; 
+      border-bottom: 2px #A0522D solid; 
+  }
+  
+  .Body h1 {
+      font-family: 'Brush Script MT', fantasy;
+      font-size: 3.5rem;
+      color: #FFFFFF; 
+  }
+  
+  .carousel {
+      width: 700px;
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); 
+  }
+  
+  .slides {
+      display: flex;
+      width: 300%;
+      height: 100%;
+      transition: transform 0.5s ease;
+  }
+  
+  .slides input {
+      display: none;
+  }
+  
+  .images {
+      display: flex;
+      width: 300%;
+      height: 100%;
+  }
+  
+  .image {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  #slide1:checked ~ .images {
+      transform: translateX(0);
+  }
+  
+  #slide2:checked ~ .images {
+      transform: translateX(-33.33%);
+  }
+  
+  #slide3:checked ~ .images {
+      transform: translateX(-66.66%);
+  }
+  
+  .navigation {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+  }
+  
+  .navigation label {
+      width: 15px;
+      height: 15px;
+      background-color: rgba(255, 255, 255, 0.7); 
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  
+  .navigation label:hover {
+      background-color: rgba(255, 255, 255, 1); 
+  }
+  
+  @media (width: 414px) {
+      .carousel {
+          width: 370px;
+          height: 210px;
+      }
+  }

@@ -1,0 +1,68 @@
+.secao_historia{
+    background-color: #8B4513;
+    color: white;
+}
+.secao_historia .container_all{
+    padding: 40px;
+    padding-right: 0px;
+}
+
+
+.secao_historia .box_containers .historias{
+    background-color: #DEB887;
+    padding: 30px;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px black;
+}
+.container_all .container_historias h1{
+    font-size: 3.5rem;
+    font-family: 'Brush Script MT',fantasy;
+    color: #DEB887;
+}
+.container_all .container_historias p{
+    font-size: 17px;
+    border-bottom: 2px #DEB887 solid;
+    margin-right: 40px;
+}
+.secao_historia .box_containers{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.secao_historia .box_containers .historias p{
+    font-size: 17px;
+    margin-top: 30px;
+    color: #8B4513;
+    text-align: justify;
+}
+.secao_historia .box_containers .historias h2{
+    color: #8B4513;
+}
+
+/*iconis e afins*/
+.secao_historia .box_containers .historias .container_iconi{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.secao_historia .box_containers .historias .container_iconi svg{
+    width: 100px;
+    height: 100px;
+}
+.secao_historia .box_containers .historias .container_iconi2{
+    display: flex;
+    justify-content: center;
+}
+.secao_historia .box_containers .historias .container_iconi2 svg{
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width:768px){
+    .secao_historia .box_containers{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
